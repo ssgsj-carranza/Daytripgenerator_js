@@ -17,7 +17,7 @@ console.log(randomRestaurant());
 
 
 function randomTransport(){
-    const transport=["bike", "car", "piggyback"];
+    const transport=["bike", "car", "piggyback ride"];
     const randomTransport= Math.floor(Math.random()*(3));
     return transport[randomTransport];
 }
@@ -26,7 +26,7 @@ console.log(randomTransport());
 
 
 function randomEntertainment(){
-    const entertainment=["musical","movies","yugioh cards"];
+    const entertainment=["musical","movies","play yugioh cards"];
     const randomEntertainment= Math.floor(Math.random()*(3));
     return entertainment[randomEntertainment];
 }
